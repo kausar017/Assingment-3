@@ -27,6 +27,8 @@
 
         .section-img {
             background-image: url('./assets/bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
@@ -60,9 +62,7 @@
                         <a href=""><i class="fa-solid fa-cart-shopping border border-solid p-3 rounded-full"></i></a>
                     </div>
                     <div>
-                        <a
-                            class="btn bg-[#ABEF5F] text-center text-xl font-extrabold hidden rounded-full lg:block text-sm md:block">Book
-                            Consult <i class="fa-solid fa-cart-shopping border border-solid p-3 rounded-full"></i></a>
+                        <a class="btn bg-[#ABEF5F] text-center text-xl font-extrabold hidden rounded-full lg:block text-sm md:block">Book Consult <i class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-black text-white"></i></a>
                     </div>
                     <div class="dropdown items-center">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden max-md:block">
@@ -332,8 +332,7 @@
                         </p>
                         <div class="card-actions s">
                             <button class="rounded-full text-xl font-extrabold mt-8">Read More
-                                <i
-                                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></i></button>
+                                <i class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></button>
                         </div>
                     </div>
                 </div>
@@ -363,7 +362,7 @@
                         <div class="card-actions s">
                             <button class="rounded-full text-xl font-extrabold mt-8">Read More
                                 <i
-                                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></i></button>
+                                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></button>
                         </div>
                     </div>
                 </div>
@@ -386,7 +385,7 @@
                             project? Whether it's creative, technical, or something else, I'd love to help.</p>
                     </div>
                 </div>
-                <div class="max-w-[790px] mx-auto gap-8 p-5 grid lg:grid-cols-2 md:grid-cols-1">
+                <div class="max-w-[790px] mx-auto gap-8 p-5 grid lg:grid-cols-2 md:grid-cols-2 ">
                     <label
                         class="input input-bordered flex items-center gap-2 rounded-full border-none hover:outline-none">
                         <input type="text" class="grow" placeholder="First Name*" />
@@ -410,20 +409,41 @@
                         </svg>
                         <input type="email" class="grow" placeholder="Email Number*" />
                     </label>
-                    <div class="grid col-span-1">
-                        <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
-                    </div>
                 </div>
-                
+                <div class=" max-w-[790px] mx-auto grid grid-cols-1 p-5 gap-5">
+                    <textarea placeholder="Write your message here"
+                        class="textarea textarea-bordered textarea-lg rounded-xl border-none hover:outline-none"></textarea>
+                    <button class="btn bg-[#ABEF5F] text-lg font-extrabold rounded-full">Send Mail
+                        <i class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-black text-white"></i></button>
+                </div>
             </div>
         </section>
-
         <!-- Let’s Discuss Next Project section end-->
-
     </main>
-    <footer>
-
+    <!-- footer section start -->
+    <footer class="footer footer-center bg-black text-base-content rounded p-10 py-28 text-white">
+        <div class="flex flex-row items-center gap-x-3">
+            <div><i
+                    class="fa-solid fa-arrow-right-long -rotate-45 bg-[#A7EC64] p-2 rounded-full text-black  cursor-pointer"></i>
+            </div>
+            <a class="text-4xl font-extrabold cursor-pointer">Rinterio</a>
+        </div>
+        <nav class="grid grid-flow-col gap-x-14">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">Services</a>
+            <a class="link link-hover">Portfolio</a>
+            <a class="link link-hover">Blogs</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <div>
+            <div>
+                <a
+                    class="btn bg-[#ABEF5F] text-center text-xl font-extrabold hidden rounded-full lg:block text-sm md:block">Book
+                    Consult <i class="fa-solid fa-cart-shopping border border-solid p-3 rounded-full"></i></a>
+            </div>
+        </div>
     </footer>
+    <!-- footer section end -->
 </body>
 
 </html>

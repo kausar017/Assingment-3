@@ -24,6 +24,10 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .section-img {
+            background-image: url('./assets/bg.jpg');
+        }
     </style>
 </head>
 
@@ -89,9 +93,11 @@
                     <img src="./assets/banner.png" alt="">
                 </div>
                 <div class="max-w-[1084px]">
-                    <h1 class="text-5xl lg:text-6xl font-extrabold text-[#212121] md:text-5xl">A barn house of this design has a
+                    <h1 class="text-5xl lg:text-6xl font-extrabold text-[#212121] md:text-5xl">A barn house of this
+                        design has a
                         striking appearance</h1>
-                    <p class="lg:text-[#494949] font-normal text-base max-w-[970px] mx-auto mt-6">That sounds intriguing!
+                    <p class="lg:text-[#494949] font-normal text-base max-w-[970px] mx-auto mt-6">That sounds
+                        intriguing!
                         Could you describe the barn house design you're referring to? Whether it's unique in shape,
                         color, or architectural style, I'd love to hear more about what makes it stand out.</p>
                 </div>
@@ -102,58 +108,317 @@
         </section>
         <!-- bannar section end -->
     </header>
-    <main>
-    <!-- We design thoughtful, liveable spaces section start -->
-     <section>
-        <div class="bg-[#F4F4F4]">
-            <div class="container mx-auto">
-                <img class="mt-3" src="./assets/Vector.png" alt="">
-            </div>
-            <div class="container mx-auto px-6 gap-5  grid grid-cols-1 lg:grid-cols-2 justify-items-center">
-                <div>
-                    <div class="flex flex-row max-w-32 px-4 py-2 rounded-full items-center bg-white">
+    <main class="bg-[#F4F4F4] py-20">
+        <!-- We design thoughtful, liveable spaces section start -->
+        <section class="container mx-auto">
+            <div>
+                <div class="md:hidden lg:block hidden">
+                    <img class="mt-3" src="./assets/Vector.png" alt="">
+                </div>
+                <div class="">
+                    <div
+                        class="max-w-[128px] flex items-center px-4 py-2 rounded-full bg-white mx-auto md:mx-auto lg:mx-0">
                         <i class="fa-solid fa-arrow-right-long mr-3"></i>
                         <a type="btn" href="">About Us</a>
                     </div>
-                    <div class=" lg:text-left text-center">
-                        <h1 class=" text-[40px] font-extrabold leading-[55px]">We design thoughtful, liveable spaces
-                        </h1>
-                        <p class="text-base font-medium leading-7 my-6 text-[#494949]">That’s a wonderful approach!
-                            Designing thoughtful, livable spaces means creating environments that are not only
-                            aesthetically pleasing but also functional and comfortable.</p>
-                    </div>
-                    <div class="grid lg:grid-cols-1 gap-6 md:grid-cols-2">
-                        <div class="bg-white rounded-xl p-4">
-                            <div><img src="./assets/c" alt=""></div>
-                            <div class="flex flex-row items-center gap-x-5">
-                                <img src="./assets/commercial.png" alt="">
-                                <div class="max-w-80">
-                                    <h3 class="text-xl font-extrabold">Commercial</h3>
-                                    <p class="text-base font-medium leading-7 text-[#494949]">For commercial spaces,
-                                        thoughtful and livable design can </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-white rounded-xl p-4">
-                            <div><img src="./assets/c" alt=""></div>
-                            <div class="flex flex-row items-center gap-x-5">
-                                <img src="./assets/commercial.png" alt="">
-                                <div class="max-w-80">
-                                    <h3 class="text-xl font-extrabold">Commercial</h3>
-                                    <p class="text-base font-medium leading-7 text-[#494949]">For commercial spaces,
-                                        thoughtful and livable design can </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div>
-                    <img class="mt-10 w-none md:w-[770px] h-[380px] lg:w-[570px] h-[500px]" src="./assets/Rectangle.png" alt="">
+                <div class="px-6 gap-5  grid grid-cols-1 lg:grid-cols-2 justify-items-center">
+                    <div class="">
+                        <div class=" lg:text-left text-center">
+                            <h1 class=" text-[40px] font-extrabold leading-[55px]">We design thoughtful, liveable spaces
+                            </h1>
+                            <p class="text-base font-medium leading-7 my-6 text-[#494949]">That’s a wonderful approach!
+                                Designing thoughtful, livable spaces means creating environments that are not only
+                                aesthetically pleasing but also functional and comfortable.</p>
+                        </div>
+                        <div class="grid lg:grid-cols-1 gap-6 md:grid-cols-2">
+                            <!-- card-1  -->
+                            <div class="bg-white rounded-xl p-4">
+                                <div><img src="./assets/c" alt=""></div>
+                                <div class="flex flex-row items-center gap-x-5">
+                                    <img src="./assets/commercial.png" alt="">
+                                    <div class="max-w-80">
+                                        <h3 class="text-xl font-extrabold">Commercial</h3>
+                                        <p class="text-base font-medium leading-7 text-[#494949]">For commercial spaces,
+                                            thoughtful and livable design can </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card-2 -->
+                            <div class="bg-white rounded-xl p-4">
+                                <div><img src="./assets/c" alt=""></div>
+                                <div class="flex flex-row items-center gap-x-5">
+                                    <img src="./assets/residential.png" alt="">
+                                    <div class="max-w-80">
+                                        <h3 class="text-xl font-extrabold">Residential</h3>
+                                        <p class="text-base font-medium leading-7 text-[#494949]">When designing
+                                            residential spaces, the goal is to create environments that are </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img class=" w-none md:w-[770px] h-[380px] lg:w-[570px] h-[500px]" src="./assets/Rectangle.png"
+                            alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- We design thoughtful, liveable spaces section end -->
+        </section>
+        <!-- We design thoughtful, liveable spaces section end -->
+
+        <!-- stat card section start -->
+        <section class="bg-[#F4F4F4] py-10">
+            <div class="container mx-auto p-6">
+                <div class=" bg-white rounded-xl p-6 grid lg:grid-cols-4 md:grid-cols-2 ">
+                    <!-- card-1  -->
+                    <div class="stats text-center flex flex-col items-center">
+                        <div class="stat h-[175px]">
+                            <i class="fa-regular fa-message text-3xl"></i>
+                            <div class="stat-value">235+</div>
+                            <div class="stat-desc">Happy Client Review</div>
+                        </div>
+                    </div>
+                    <!-- card-2  -->
+                    <div class="stats text-center flex flex-col items-center">
+                        <div class="stat h-[175px]">
+                            <i class="fa-solid fa-clipboard-list text-3xl"></i>
+                            <div class="stat-value">50+</div>
+                            <div class="stat-desc">Work Departments</div>
+                        </div>
+                    </div>
+                    <!-- card-3  -->
+                    <div class="stats text-center flex flex-col items-center">
+                        <div class="stat h-[175px]">
+                            <i class="fa-solid fa-users text-3xl"></i>
+                            <div class="stat-value">30k+</div>
+                            <div class="stat-desc">Our Happy Client</div>
+                        </div>
+                    </div>
+                    <!-- card-4  -->
+                    <div class="stats text-center flex flex-col items-center">
+                        <div class="stat h-[175px]">
+                            <i class="fa-solid fa-user-group text-3xl"></i>
+                            <div class="stat-value">307+</div>
+                            <div class="stat-desc">Staff Members</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- stat card section end -->
+
+        <!-- Our Works Process section start -->
+        <section class="bg-[#F4F4F4] py-10">
+            <div class="container mx-auto">
+                <div class="flex flex-col items-center gap-y-7 text-center">
+                    <div class="flex flex-row max-w-44 px-4 py-2 rounded-full items-center bg-white">
+                        <i class="fa-solid fa-arrow-right-long mr-3"></i>
+                        <a type="btn" href="">How we works</a>
+                    </div>
+                    <div class="max-w-[670px] mx-auto">
+                        <h1 class="text-[40px] font-extrabold">Our Works Process</h1>
+                        <p class="mt-5 text-base font-medium text-[#494949]">A well-structured work process is crucial
+                            for delivering successful design projects, whether residential or commercial. Here’s a
+                            comprehensive breakdown of a typical design work process:</p>
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-4 p-6 gap-5 md:grid-cols-2 ">
+                    <!-- card-1  -->
+                    <div class="bg-[#E7C1D3] p-6 h-56 flex flex-col items-start justify-evenly rounded-2xl">
+                        <img src="./assets/concept.png" alt="">
+                        <h4 class="text-xl font-extrabold">Concept</h4>
+                        <p class="text-base font-medium leading-6">A concept is an abstract idea or <br> a general
+                            notion.</p>
+                    </div>
+
+                    <!-- card-2  -->
+                    <div class="bg-[#EFDA6E] p-6 h-56 flex flex-col items-start justify-evenly rounded-2xl">
+                        <img src="./assets/flow-chart.png" alt="">
+                        <h4 class="text-xl font-extrabold">Design Process</h4>
+                        <p class="text-base font-medium leading-6">The design process is a structured approach to
+                            creating a product, service, or system.</p>
+                    </div>
+
+                    <!-- card-3  -->
+                    <div class="bg-[#A4DAC3] p-6 h-56 flex flex-col items-start justify-evenly rounded-2xl">
+                        <img src="./assets/vision.png" alt="">
+                        <h4 class="text-xl font-extrabold">Supervision</h4>
+                        <p class="text-base font-medium leading-6">Supervision generally refers to the act of overseeing
+                            and guiding the work, activities, or behavior of others. </p>
+                    </div>
+
+                    <!-- card-4  -->
+                    <div class="bg-[#77AAEA] p-6 h-56 flex flex-col items-start justify-evenly rounded-2xl">
+                        <img src="./assets/budget-planning.png" alt="">
+                        <h4 class="text-xl font-extrabold">Budget Planning</h4>
+                        <p class="text-base font-medium leading-6">Budget planning is the process of creating a detailed
+                            financial plan that outlines expected revenues, expenses</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Our Works Process section end -->
+
+        <!-- Read Our Articles and News section start-->
+        <section class="container mx-auto pb-10 ">
+            <div class="flex flex-col items-center text-center gap-y-6 p-5">
+                <div class="flex flex-row max-w-44 px-4 py-2 rounded-full items-center bg-[#E5F3D6]">
+                    <i class="fa-solid fa-arrow-right-long mr-3"></i>
+                    <a type="btn" href="">Rinterio News</a>
+                </div>
+                <div class="max-w-[670px]">
+                    <h1 class="text-black text-5xl font-extrabold">Read Our Articles and News</h1>
+                    <p class="text-base font-medium leading-7 mt-5">It seems like you're referring to a feature or
+                        request related to accessing or reading specific articles and news. Could you clarify what you
+                        mean by "Read Our Articles and News"? </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 p-5">
+                <!-- card-1 -->
+                <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
+                    <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5 ">
+                        <img src="assets/article1.png" alt="Shoes" class="rounded-xl md:h-full w-full max-sm:p-5" />
+                    </figure>
+                    <div class="card-body md:col-span-2 items-start">
+                        <div class="flex items-center justify-between gap-10">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <small class="text-extra">July14, 2024</small>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <small class="text-extra">By Admin</small>
+                            </div>
+                        </div>
+                        <h2 class="card-title text-[#494949]">
+                            How to choose the furniture right of your home.
+                        </h2>
+                        <p class="text-extra">
+                            Start by measuring the dimensions of each room where you plan to add furniture. This ensures
+                            that the pieces you choose will fit comfortably without overcrowding.
+                        </p>
+                        <div class="card-actions s">
+                            <button class="rounded-full text-xl font-extrabold mt-8">Read More
+                                <i
+                                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-1 -->
+                <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
+                    <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5 ">
+                        <img src="assets/article2.png" alt="Shoes" class="rounded-xl md:h-full w-full max-sm:p-5" />
+                    </figure>
+                    <div class="card-body md:col-span-2 items-start">
+                        <div class="flex items-center justify-between gap-10">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <small class="text-extra">July14, 2024</small>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <small class="text-extra">By Admin</small>
+                            </div>
+                        </div>
+                        <h2 class="card-title text-[#494949]">
+                            How to choose the furniture right of your home.
+                        </h2>
+                        <p class="text-extra">
+                            Whether you prefer modern, traditional, minimalist, or eclectic styles, having a clear sense
+                            of your taste will guide your choices.
+                        </p>
+                        <div class="card-actions s">
+                            <button class="rounded-full text-xl font-extrabold mt-8">Read More
+                                <i
+                                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-1 -->
+                <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
+                    <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5 ">
+                        <img src="assets/article3.png" alt="Shoes" class="rounded-xl md:h-full w-full max-sm:p-5" />
+                    </figure>
+                    <div class="card-body md:col-span-2 items-start">
+                        <div class="flex items-center justify-between gap-10">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <small class="text-extra">July14, 2024</small>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <small class="text-extra">By Admin</small>
+                            </div>
+                        </div>
+                        <h2 class="card-title text-[#494949]">
+                            How to choose the furniture right of your home.
+                        </h2>
+                        <p class="text-extra">
+                            If you’re working with a smaller space, consider furniture that serves multiple purposes,
+                            like a sofa bed or an ottoman with storage.
+                        </p>
+                        <div class="card-actions s">
+                            <button class="rounded-full text-xl font-extrabold mt-8">Read More
+                                <i
+                                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-[#ABEF5F]"></i></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Read Our Articles and News section end-->
+
+        <!-- Let’s Discuss Next Project section satrt-->
+        <section class="section-img py-28">
+            <div class="container mx-auto">
+                <div class="flex flex-col items-center gap-y-5">
+                    <div class="flex flex-row max-w-44 px-4 py-2 rounded-full items-center bg-[#E5F3D6]">
+                        <i class="fa-solid fa-arrow-right-long mr-3"></i>
+                        <a type="btn" href="">Rinterio News</a>
+                    </div>
+                    <div class="max-w-[790px] text-center">
+                        <h1 class="text-5xl font-extrabold ">Let’s Discuss Next Project</h1>
+                        <p class="text-base font-medium leading-7 my-7">Sure! What do you have in mind for your next
+                            project? Whether it's creative, technical, or something else, I'd love to help.</p>
+                    </div>
+                </div>
+                <div class="max-w-[790px] mx-auto gap-8 p-5 grid lg:grid-cols-2 md:grid-cols-1">
+                    <label
+                        class="input input-bordered flex items-center gap-2 rounded-full border-none hover:outline-none">
+                        <input type="text" class="grow" placeholder="First Name*" />
+                    </label>
+                    <label
+                        class="input input-bordered flex items-center gap-2 rounded-full border-none hover:outline-none">
+                        <input type="text" class="grow" placeholder="Last Name*" />
+                    </label>
+                    <label
+                        class="input input-bordered flex items-center gap-2 rounded-full border-none hover:outline-none">
+                        <input type="number" class="grow" placeholder="Phone Number*" />
+                    </label>
+                    <label
+                        class="input input-bordered flex items-center gap-2 rounded-full border-none hover:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                            class="h-4 w-4 opacity-70">
+                            <path
+                                d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                            <path
+                                d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+                        </svg>
+                        <input type="email" class="grow" placeholder="Email Number*" />
+                    </label>
+                    <div class="grid col-span-1">
+                        <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Let’s Discuss Next Project section end-->
 
     </main>
     <footer>

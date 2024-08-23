@@ -19,18 +19,22 @@
 
     <!-- font awesome cnd link -->
     <script src="https://kit.fontawesome.com/408ea844fb.js" crossorigin="anonymous"></script>
+    <!-- extarnal css style  -->
 
     <style>
+        /* font style start */
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
 
+        /* font style end */
         .section-img {
             background-image: url('./assets/bg.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
     </style>
+
 </head>
 
 <body class="font-manrope">
@@ -55,17 +59,18 @@
                         <li><a class="hover:font-extrabold">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end flex flex-row lg:gap-x-5 ">
-                    <div class="bg-white max-sm:hidden lg:block max-md:hidden">
-                        <a href=""> <i
-                                class="fa-solid fa-magnifying-glass mr-5 md:mr-0 border border-solid p-3 rounded-full"></i></a>
+                <div class="navbar-end flex flex-row ">
+                    <div class="bg-white hidden lg:block md:block max-md:hidden">
+                        <a href=""><i
+                                class="fa-solid fa-magnifying-glass mr-2 border border-solid p-3 rounded-full"></i></a>
                         <a href=""><i class="fa-solid fa-cart-shopping border border-solid p-3 rounded-full"></i></a>
                     </div>
                     <div>
-                        <a
-                            class="btn bg-[#ABEF5F] text-center text-xl font-extrabold hidden rounded-full lg:block text-sm md:block">Book
-                            Consult <i
-                                class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-black text-white"></i></a>
+                        <button
+                            class="bg-[#ABEF5F] py-3 px-5 rounded-full hidden font-bold lg:font-normal lg:block md:block">
+                            Book Consult
+                            <i class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-black text-white"></i>
+                        </button>
                     </div>
                     <div class="dropdown items-center">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden max-md:block">
@@ -76,7 +81,7 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 right-0 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            class="menu menu-sm dropdown-content bg-base-100 right-0 rounded-box z-[1] mt-3 max-w-52 p-2 shadow">
                             <li><a>Home</a></li>
                             <li><a>Services</a></li>
                             <li><a>Portfolio</a></li>
@@ -99,10 +104,10 @@
                     <h1 class="text-5xl lg:text-6xl font-extrabold text-[#212121] md:text-5xl">A barn house of this
                         design has a
                         striking appearance</h1>
-                    <p class="lg:text-[#494949] font-normal text-base max-w-[970px] mx-auto mt-6">That sounds
-                        intriguing!
-                        Could you describe the barn house design you're referring to? Whether it's unique in shape,
-                        color, or architectural style, I'd love to hear more about what makes it stand out.</p>
+                    <p class="lg:text-[#494949] font-normal text-base max-w-[970px] mx-auto mt-6">That's a great
+                        observation! Barn houses can indeed be quite striking, especially when designed with a modern
+                        twist. Their clean lines, large windows, and open-concept floor plans often create a dramatic
+                        and eye-catching aesthetic.</p>
                 </div>
                 <button class="bg-[#D4F6AE] px-6 py-3 rounded-full text-xl font-extrabold mt-8">View
                     Details <i
@@ -130,9 +135,8 @@
                         <div class=" lg:text-left text-center">
                             <h1 class=" text-[40px] font-extrabold leading-[55px]">We design thoughtful, liveable spaces
                             </h1>
-                            <p class="text-base font-medium leading-7 my-6 text-[#494949]">That’s a wonderful approach!
-                                Designing thoughtful, livable spaces means creating environments that are not only
-                                aesthetically pleasing but also functional and comfortable.</p>
+                            <p class="text-base font-medium leading-7 my-6 text-[#494949]">Creating spaces that are both
+                                thoughtful and liveable is a key to designing homes that people truly enjoy.</p>
                         </div>
                         <div class="grid lg:grid-cols-1 gap-6 md:grid-cols-2">
                             <!-- card-1  -->
@@ -265,8 +269,30 @@
         </section>
         <!-- Our Works Process section end -->
 
+        <!-- Our Latest Portfolio section start -->
+        <section class="bg-[#FFFFFF] py-28">
+            <div>
+                <div class="flex flex-col items-center text-center gap-y-5">
+                    <div class="flex flex-row max-w-[300px] px-4 py-2 rounded-full items-center bg-[#E5F3D6]">
+                        <i class="fa-solid fa-arrow-right-long mr-3"></i>
+                        <a type="btn" href="">Explore our Latest works</a>
+                    </div>
+                    <div class="max-w-[670px] mx-auto">
+                        <h1 class="text-5xl font-extrabold text-[#212121]">Our Latest Portfolio</h1>
+                        <p class="text-base font-medium text-[#494949] my-5">Could you please provide more details about
+                            the portfolio you're referring to? This could include the type of projects, the industry, or
+                            any specific content you want to showcase. That way, I can assist you more effectively!</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Our Latest Portfolio section end -->
+
         <!-- Read Our Articles and News section start-->
-        <section class="container mx-auto pb-10 ">
+        <section class="container mx-auto py-10 ">
             <div class="flex flex-col items-center text-center gap-y-6 p-5">
                 <div class="flex flex-row max-w-44 px-4 py-2 rounded-full items-center bg-[#E5F3D6]">
                     <i class="fa-solid fa-arrow-right-long mr-3"></i>
@@ -274,7 +300,8 @@
                 </div>
                 <div class="max-w-[670px]">
                     <h1 class="text-black text-5xl font-extrabold">Read Our Articles and News</h1>
-                    <p class="text-base font-medium leading-7 mt-5">It seems like you're referring to a feature or
+                    <p class="text-base font-medium leading-7 mt-5 text-[#494949]">It seems like you're referring to a
+                        feature or
                         request related to accessing or reading specific articles and news. Could you clarify what you
                         mean by "Read Our Articles and News"? </p>
                 </div>
@@ -310,7 +337,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- card-1 -->
+                <!-- card-2 -->
                 <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
                     <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5 ">
                         <img src="assets/article2.png" alt="Shoes" class="rounded-xl md:h-full w-full max-sm:p-5" />
@@ -340,7 +367,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- card-1 -->
+                <!-- card-3 -->
                 <div class="card grid col-span-1 md:grid-cols-3 lg:grid-cols-1 bg-base-100">
                     <figure class="lg:px-10 lg:pt-10 lg:p-0 md:py-5 md:px-5 ">
                         <img src="assets/article3.png" alt="Shoes" class="rounded-xl md:h-full w-full max-sm:p-5" />
@@ -375,13 +402,120 @@
         </section>
         <!-- Read Our Articles and News section end-->
 
+        <!-- extra section {our bilding manajment system} start  -->
+        <section class="container bg-white mx-auto py-28 rounded-2xl p-6">
+            <div>
+                <div class="max-w-[920px] mx-auto text-center flex flex-col items-center gap-y-5">
+                    <div class="flex flex-row max-w-44 px-4 py-2 rounded-full items-center bg-[#E5F3D6]">
+                        <i class="fa-solid fa-arrow-right-long mr-3"></i>
+                        <a type="btn" href="">our manajment</a>
+                    </div>
+                    <h1 class="text-5xl font-extrabold ">our bilding manajment system</h1>
+                    <p class="text-base font-medium text-gray-500 leading-7 my-7">It seems like you're referring to a
+                        "Building
+                        Management System" (BMS). A Building Management
+                        System is a computer-based control system that manages and monitors a building's mechanical and
+                        electrical equipment, such as ventilation, lighting, power systems, fire systems, and security
+                        systems.
+
+                        Would you like to know more about how these systems work, the benefits they provide, or perhaps
+                        something specific related to your own building's management system?</p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-5">
+                    <!-- card-1  -->
+                    <div style="background-image: url(./assets/projects-1\ .jpg);"
+                        class="bg-cover card image-full group rounded-r-none lg:rounded-r-[20%] max-w-96  overflow-hidden z-0">
+                        <div
+                            class="text-[#ffff] flex flex-col gap-y-7 p-5 my-10 relative z-10 duration-500 group-hover:left-0 -left-[23rem] ">
+                            <h1 class="text-2xl font-bold ">Architecture model house showing building structure</h1>
+                            <p class="text-lg font-bold ">architecture, home, 3d, architect, model, plan, design,
+                                blueprint,
+                                roof, project, addition, residential, interior, structure, modular, illustration,
+                                estate,
+                                painting, frame, built,</p>
+                        </div>
+                    </div>
+                    
+                    <!-- card-2  -->
+                    <div style="background-image: url(./assets/projects-2.JPG);"
+                        class="bg-cover card image-full group rounded-r-none lg:rounded-r-[20%] max-w-96  overflow-hidden z-0">
+                        <div
+                            class="text-[#ffff] flex flex-col gap-y-7 p-5 my-10 relative z-10 duration-500 group-hover:left-0 -left-[23rem] ">
+                            <h1 class="text-2xl font-bold ">Architecture model house showing building structure</h1>
+                            <p class="text-lg font-bold ">architecture, home, 3d, architect, model, plan, design,
+                                blueprint,
+                                roof, project, addition, residential, interior, structure, modular, illustration,
+                                estate,
+                                painting, frame, built,</p>
+                        </div>
+                    </div>
+                    <!-- card-3  -->
+                    <div style="background-image: url(./assets/projects-3.jpeg);"
+                        class="bg-cover card image-full group rounded-r-none lg:rounded-r-[20%] max-w-96  overflow-hidden z-0">
+                        <div
+                            class="text-[#ffff] flex flex-col gap-y-7 p-5 my-10 relative z-10 duration-500 group-hover:left-0 -left-[23rem] ">
+                            <h1 class="text-2xl font-bold ">Architecture model house showing building structure</h1>
+                            <p class="text-lg font-bold ">architecture, home, 3d, architect, model, plan, design,
+                                blueprint,
+                                roof, project, addition, residential, interior, structure, modular, illustration,
+                                estate,
+                                painting, frame, built,</p>
+                        </div>
+                    </div>
+                    <!-- card-4  -->
+                    <div style="background-image: url(./assets/projects-4.jpeg);"
+                        class="bg-cover card image-full group rounded-r-none lg:rounded-r-[20%] max-w-96  overflow-hidden z-0">
+                        <div
+                            class="text-[#ffff] flex flex-col gap-y-7 p-5 my-10 relative z-10 duration-500 group-hover:left-0 -left-[23rem] ">
+                            <h1 class="text-2xl font-bold ">Architecture model house showing building structure</h1>
+                            <p class="text-lg font-bold ">architecture, home, 3d, architect, model, plan, design,
+                                blueprint,
+                                roof, project, addition, residential, interior, structure, modular, illustration,
+                                estate,
+                                painting, frame, built,</p>
+                        </div>
+                    </div>
+                    <!-- card-5  -->
+                    <div style="background-image: url(./assets/projects-5.jpeg);"
+                        class="bg-cover card image-full group rounded-r-none lg:rounded-r-[20%] max-w-96  overflow-hidden z-0">
+                        <div
+                            class="text-[#ffff] flex flex-col gap-y-7 p-5 my-10 relative z-10 duration-500 group-hover:left-0 -left-[23rem] ">
+                            <h1 class="text-2xl font-bold ">Architecture model house showing building structure</h1>
+                            <p class="text-lg font-bold ">architecture, home, 3d, architect, model, plan, design,
+                                blueprint,
+                                roof, project, addition, residential, interior, structure, modular, illustration,
+                                estate,
+                                painting, frame, built,</p>
+                        </div>
+                    </div>
+                    <!-- card-6  -->
+                    <div style="background-image: url(./assets/projects-6.jpg);"
+                        class="bg-cover card image-full group rounded-r-none lg:rounded-r-[20%] max-w-96  overflow-hidden z-0">
+                        <div
+                            class="text-[#ffff] flex flex-col gap-y-7 p-5 my-10 relative z-10 duration-500 group-hover:left-0 -left-[23rem] ">
+                            <h1 class="text-2xl font-bold ">Architecture model house showing building structure</h1>
+                            <p class="text-lg font-bold ">architecture, home, 3d, architect, model, plan, design,
+                                blueprint,
+                                roof, project, addition, residential, interior, structure, modular, illustration,
+                                estate,
+                                painting, frame, built,</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- extra section {our bilding manajment system} end  -->
+
         <!-- Let’s Discuss Next Project section satrt-->
         <section class="section-img py-28">
             <div class="container mx-auto">
                 <div class="flex flex-col items-center gap-y-5">
                     <div class="flex flex-row max-w-44 px-4 py-2 rounded-full items-center bg-[#E5F3D6]">
                         <i class="fa-solid fa-arrow-right-long mr-3"></i>
-                        <a type="btn" href="">Rinterio News</a>
+                        <a type="btn" href="">Let’s Connect</a>
                     </div>
                     <div class="max-w-[790px] text-center">
                         <h1 class="text-5xl font-extrabold ">Let’s Discuss Next Project</h1>
@@ -440,7 +574,8 @@
             <a class="link no-underline">Contact Us</a>
         </nav>
         <div class="flex flex-col w-full lg:w-[211px] md:w-[211px]  bg-[#ABEF5F] py-3 rounded-full">
-            <button class="text-base font-extrabold text-black ">Book Consult <i class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-black text-white"></i></button>
+            <button class="text-base font-extrabold text-black ">Book Consult <i
+                    class="fa-solid fa-arrow-right p-2 -rotate-45 rounded-full bg-black text-white"></i></button>
         </div>
     </footer>
     <!-- footer section end -->
